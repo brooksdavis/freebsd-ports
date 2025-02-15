@@ -9,7 +9,11 @@ MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Symbolic Model Verifier System for checking finite state systems
 WWW=		https://www.cs.cmu.edu/~modelcheck/smv.html
 
-USES=		sbrk
+USES=		sbrk:lib
+
+BROKEN_armv6=		fails to build: error: non-void function check_bdd should return a value
+BROKEN_armv7=		fails to build: error: non-void function check_bdd should return a value
+
 USE_GCC=	yes
 WRKSRC=		${WRKDIR}/${PORTNAME}
 ALL_TARGET=	${PORTNAME}

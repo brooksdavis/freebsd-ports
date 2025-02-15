@@ -13,7 +13,7 @@ WWW=		https://ex-vi.sourceforge.net/
 LICENSE=	BSD4CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		ncurses sbrk tar:bzip2
+USES=		ncurses sbrk:lib tar:bzip2
 
 PRESERVEDIR=	/var/preserve/${PKGBASE}
 PLIST_SUB=	PRESERVEDIR="${PRESERVEDIR}"

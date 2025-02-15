@@ -13,7 +13,7 @@ USE_GITLAB=	yes
 GL_ACCOUNT=	zsaleeba
 GL_TAGNAME=	dc85a51e9211cfb644f0a85ea9546e15dc1141c3
 
-USES=		cpe gmake readline sbrk
+USES=		cpe gmake readline sbrk:lib
 CPE_VENDOR=	${PORTNAME}_project
 
 PLIST_FILES=	bin/picoc
