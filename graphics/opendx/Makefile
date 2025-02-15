@@ -17,7 +17,7 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 LIB_DEPENDS=	libtiff.so:graphics/tiff		\
 		libcdf.so:science/cdf
 
-USES=		bison compiler:c++17-lang gl gmake libtool localbase:ldflags magick:6 motif sbrk xorg
+USES=		bison compiler:c++17-lang gl gmake libtool localbase:ldflags magick:6 motif sbrk:lib xorg
 USE_GL=		gl glu
 USE_LDCONFIG=	yes
 USE_XORG=	x11 xt xinerama xext xpm xmu sm ice

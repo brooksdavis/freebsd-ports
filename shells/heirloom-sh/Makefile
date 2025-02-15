@@ -10,7 +10,7 @@ WWW=		https://heirloom.sourceforge.net/sh.html
 
 LICENSE=	CDDL
 
-USES=		sbrk tar:bzip2
+USES=		sbrk:lib tar:bzip2
 
 MAKEFILE=	makefile
 MAKE_ARGS=	ROOT=${STAGEDIR} \

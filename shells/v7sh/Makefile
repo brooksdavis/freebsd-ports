@@ -15,7 +15,7 @@ MAINTAINER=	portmaster@BSDforge.com
 COMMENT=	Implementation of the UNIX 7th Edition shell
 WWW=		http://minnie.tuhs.org/UnixTree/V7/
 
-USES=		sbrk uidfix
+USES=		sbrk:lib uidfix
 EXTRACT_CMD=	${CP}
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	${WRKSRC}
