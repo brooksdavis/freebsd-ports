@@ -1493,6 +1493,7 @@
     SUBDIR += libruin
     SUBDIR += libs11n
     SUBDIR += libsavitar
+    SUBDIR += libsbrk
     SUBDIR += libscca
     SUBDIR += libscfg
     SUBDIR += libsearpc
