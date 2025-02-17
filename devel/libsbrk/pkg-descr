@@ -1,0 +1,2 @@
+A stub library to allow linking against the sbrk@FBSD_1.0 symbol
+in libc when there is no default symbol available.
